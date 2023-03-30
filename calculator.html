@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grading System</title>
+    <link rel="stylesheet" href="folder/style.css"/>
+    <script src="Grading/Grading.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="left-box">
+            <h1>Result</h1>
+            <div class="p-g-t">
+                <h2>Average - <span id="AVE"></span></h2>
+                <h2>Remarks - <span id="REM"></span></h2>
+                <h2>Descriptor - <span id="DES"></span></h2>
+            </div>
+        </div>
+        <div class="content">
+            <div class="right-box">
+                <input type="number" id="A" placeholder="Rizal"/>
+                <input type="number" id="B" placeholder="Web Systems"/>
+                <input type="number" id="C" placeholder="PE"/>
+                <input type="number" id="D" placeholder="Programming"/>
+                <input type="number" id="E" placeholder="Networking"/>
+                <input type="number" id="F" placeholder="Ethics"/>
+                <input type="number" id="G" placeholder="Operating Systems"/>
+                <button type="button" onclick="show_result()">Show Result</button>
+            </div>
+        </div>
+    <div class="result">
+        <h2></h2>
+      </div>
+    </div>
+    <script src=".Grading/Grading.js"></script>
+</body>
+</html>
